@@ -9,11 +9,6 @@
 python main_scrape.py --start_mmddyyyy "01/01/1990" --end_mmddyyyy "01/25/2023"
 ```
 
-## Error Handling
-* If an error occurs, the case is saved in the `Minutes/raw/errors.csv` file.
-* After checking this file, handle the errors one by one.
-  - `Scrape_items_in_errors.csv.ipynb`
-
 ### Input
 | Variable           | Type | Example                                                             |
 | :----------------- | :--- | :------------------------------------------------------------------ |
@@ -46,7 +41,10 @@ python main_scrape.py --start_mmddyyyy "01/01/1990" --end_mmddyyyy "01/25/2023"
 1. The Federal Open Market Committee is referenced as the "FOMC" and the "Committee" in these minutes; the Board of Governors of the Federal Reserve System is referenced as the "Board" in these minutes. Return to text 2. Attended through the discussion of developments in financial markets and open market operations. Return to text 3. Attended Tuesday's session only.
 ```
 
-
+## Error Handling
+* If an error occurs, the case is saved in the `Minutes/raw/errors.csv` file.
+* After checking this file, handle the errors one by one.
+  - `Scrape_items_in_errors.csv.ipynb`
 
 *****
 
