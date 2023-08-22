@@ -17,7 +17,6 @@
 | start\_mmddyyyy    | str  | "01/01/1990"                                                        |
 | end\_mmddyyyy      | str  | "08/22/2023"                                                        |
 | chromedriver\_filepath | str  | "C:\\GIT\\SELENIUM\_DRIVERS\\chromedriver\_win32\\chromedriver.exe" |
-| save\_temp\_dir    | str  | "./Temp"                                                      |
 
 ## Meeting date parsing
 
